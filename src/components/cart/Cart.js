@@ -14,7 +14,7 @@ const Cart = (props) => {
             <h3>Cast cart summary</h3>
             <h5>Casted Actor: {props.cart.length}</h5>
             <br />
-            <p>Total: {total}</p>
+            <p>Total:$ {total}</p>
             {
                 cart.map(item => <CartItem
                     key={item.name}
