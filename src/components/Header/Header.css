@@ -1,9 +1,11 @@
+/* =========style for header======== */
 .header{
     background-color: darksalmon;
     display: flex;
     justify-content: center;
     padding: 20px;
 }
+/* =========style for header title======== */
 .title{
     margin-left: 50px;
     font-weight: 800;

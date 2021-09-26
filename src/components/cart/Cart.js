@@ -9,6 +9,7 @@ const Cart = (props) => {
     }
 
     return (
+        /* ======sending data ========= */
         <div>
             <h3>Cast cart summary</h3>
             <h5>Casted Actor: {props.cart.length}</h5>

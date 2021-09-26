@@ -5,11 +5,14 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import './cast.css'
 
 const Cast = (props) => {
+    /* ================disstructring of props of cast============= */
     const { name, age, img, salary, role, nationality } = props.cast;
     const cartIcon = <FontAwesomeIcon icon={faCartPlus} />
     return (
+        /* ========use data from props=========== */
         <div className="cast-details">
             <div>
+
                 <img src={img} alt="" />
                 <h4>Name: {name} </h4>
                 <p>Age: {age}</p>

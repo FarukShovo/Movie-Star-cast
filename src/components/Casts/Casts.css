@@ -1,3 +1,4 @@
+/* ===============style of cast container=============== */
 .cast-container{
     display: grid;
     grid-template-columns: 1fr  1fr 1fr;
@@ -6,6 +7,7 @@
     margin: 20px;
 }
 
+/* ===============style of cast container=============== */
 .casts-container{
     display: grid;
     grid-template-columns: 3fr  1fr;
